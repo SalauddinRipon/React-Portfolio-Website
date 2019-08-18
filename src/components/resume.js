@@ -42,49 +42,44 @@ class Resume extends Component {
               startYear={2010}
               endYear={2014}
               schoolName="Mollar Hat High Scholl"
-              schoolDescription="i complete my seceondery study at the scholl"
+              schoolDescription="i complete my secondary study at the scholl"
                />
 
                <Education
                  startYear={2015}
                  endYear={2017}
                  schoolName="Rustom Ali Degree College"
-                 schoolDescription="i comple my intermediete stdy at the college"
+                 schoolDescription="i complete my Intermediet study at the college"
                   />
                 <hr style={{borderTop: '3px solid #e22947'}} />
 
               <h2>Experience</h2>
 
-            <Experience
-              startYear={2009}
-              endYear={2012}
-              jobName="First Job"
-              jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
-              />
-
               <Experience
-                startYear={2012}
-                endYear={2016}
-                jobName="Second Job"
-                jobDescription="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s"
+                startYear={2016}
+                endYear={2019}
+                jobName="Working internet markettplace"
+                jobDescription="I am a Front-end Developer. I have 2 years commercial experience providing front-end development, producing high quality responsive websites and exceptional user experience."
                 />
               <hr style={{borderTop: '3px solid #e22947'}} />
               <h2>Skills</h2>
               <Skills
-                skill="javascript"
-                progress={100}
-                />
-                <Skills
                   skill="HTML/CSS"
                   progress={80}
                   />
+
+              <Skills
+                skill="javascript"
+                progress={70}
+                />
+               
                   <Skills
-                    skill="NodeJS"
-                    progress={50}
+                    skill="React"
+                    progress={85}
                     />
                     <Skills
-                      skill="React"
-                      progress={25}
+                      skill="React-Redux"
+                      progress={60}
                       />
 
 
